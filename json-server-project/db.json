@@ -1,0 +1,46 @@
+{
+  "signup": [
+    {
+      "name": "saksham",
+      "email": "sakshambotke099@gmail.com",
+      "password": "password",
+      "id": 1
+    },
+    {
+      "name": "yash",
+      "email": "yash@gmail.com",
+      "password": "newpasseord",
+      "id": 2
+    },
+    {
+      "name": "harsh",
+      "email": "harsh@gmail.com",
+      "password": "password",
+      "id": 3
+    },
+    {
+      "name": "devyanshu",
+      "email": "dev@gmail.com",
+      "password": "password",
+      "id": 4
+    },
+    {
+      "name": "saksham",
+      "email": "sakshambotke099@gmail.com",
+      "password": "newpassword",
+      "id": 5
+    },
+    {
+      "name": "neena",
+      "email": "sakshambotke099@gmail.com",
+      "password": "12345",
+      "id": 6
+    },
+    {
+      "name": "pk",
+      "email": "pk@gmail.com",
+      "password": "1pk@",
+      "id": 7
+    }
+  ]
+}

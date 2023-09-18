@@ -1,0 +1,22 @@
+<body>
+    <section class="container">
+        <div class="login-container">
+            <div class="circle circle-one"></div>
+            <div class="form-container">
+                <!-- <img src="https://raw.githubusercontent.com/hicodersofficial/glassmorphism-login-form/master/assets/illustration.png" alt="illustration" class="illustration" /> -->
+                <h1 class="opacity">SIGN UP</h1>
+                <form [formGroup]="signupForm" (ngSubmit)="signUp(signupForm)">
+                    <input type="text" placeholder="NAME" formControlName="name"/>
+                    <input type="text" placeholder="EMAIL ADDRESS" formControlName="email"/>
+                    <input type="password" placeholder="PASSWORD" formControlName="password"/>
+                    <button type="submit" opacity>SUBMIT</button>
+                </form>
+                <a  class="link" routerLink="/login">Already a member? <span class="signupp">click to sign in.</span></a>
+            </div>
+            
+            <div class="circle circle-two"></div>
+            
+        </div>
+        <div class="theme-btn-container"></div>
+    </section>
+</body>
